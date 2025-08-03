@@ -1,0 +1,1316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Include">
+      <UniqueIdentifier>{0c11bb63-ed2a-4c44-a6e1-666902fbb623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{ed485384-d04f-4432-9534-1f500337737f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{dca5bf82-dc0e-47fe-9669-3983cd2d04b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{4461708f-8f65-470d-aa1a-c6b27852dd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01,Logo">
+      <UniqueIdentifier>{178b86ba-7e6f-4c5d-bfe1-6363cc031ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay">
+      <UniqueIdentifier>{9b2a3fae-19f9-4dd1-816d-afb68c7ff529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading">
+      <UniqueIdentifier>{5bde81d5-2f5a-4568-be54-7f7dd84096fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Loader">
+      <UniqueIdentifier>{d67cf4d9-47be-4fec-91e4-452df4169f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{087d5b5a-d07a-4e11-9aca-de21b2aa53b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.BackGround">
+      <UniqueIdentifier>{71f2af00-0474-470a-ab10-5b3e54bf60b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{80cfb095-668a-49d7-81b1-ab99af8f67d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Terrain">
+      <UniqueIdentifier>{088d3e43-cb6f-43fc-8392-b905c3074ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player">
+      <UniqueIdentifier>{95b94400-295b-4975-a5d9-8b0bf576678b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Camera">
+      <UniqueIdentifier>{c2362a27-b743-4f63-892c-efd9b62d5657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100.ImGui">
+      <UniqueIdentifier>{6e6fc36b-43a4-4caf-a2bd-523fcf69bbe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100.ImGui\Impl">
+      <UniqueIdentifier>{efaea802-403b-4174-b7a4-e742d039f582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100.ImGui\Files">
+      <UniqueIdentifier>{01b1120f-3796-4a9e-8ef5-ac90fb70d88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100.ImGui\ImGui_Manager">
+      <UniqueIdentifier>{a0ea6468-c8b1-46f2-a5dd-140587d59b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.BackGround\00.Loading_Level">
+      <UniqueIdentifier>{2812c14f-87be-4691-9dac-86a26f9d0337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Level_Loading">
+      <UniqueIdentifier>{50854c6c-1fde-4b7b-8cdf-14e2687e74cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Level_Loading\00.Bus">
+      <UniqueIdentifier>{408508d4-2478-47f4-be3c-950883d5e136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Level_Loading\01.Shadow">
+      <UniqueIdentifier>{2697f933-d9bc-4c1b-a19d-84d1478fc420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Camera\Free_Camera">
+      <UniqueIdentifier>{47fa8392-0731-430f-8290-b6cb290663b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI">
+      <UniqueIdentifier>{aed1b5c0-f8c6-4d27-b7b4-4902d89f6d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\PlayerHpBar">
+      <UniqueIdentifier>{a0b7e500-c570-4c3b-ab1a-b2f27cff8c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster">
+      <UniqueIdentifier>{7f521c7f-10bb-4d51-b205-c1663318c3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\PlayerHpBar\HpBarBackGround">
+      <UniqueIdentifier>{b83ea995-f0e8-4a48-b592-8501719359c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\MouseCursor">
+      <UniqueIdentifier>{8043da3f-edc1-4a58-8fa9-88867016be2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\80.MapToolTerrain">
+      <UniqueIdentifier>{3d378b8f-5244-4f25-bda7-1ffac10b2ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\80.MapTool">
+      <UniqueIdentifier>{b3142bbb-0774-4db1-8606-6f37425df981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Camera\MapTool_Camera">
+      <UniqueIdentifier>{2282efd5-901a-4a45-b1ae-85baaf7b433a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\00.Body_Player">
+      <UniqueIdentifier>{d62bf7c0-c575-48d4-82cb-1f6d760349e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\01.Weapon">
+      <UniqueIdentifier>{dff94825-24d4-4838-93bb-146a627931f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\95.TempCollider">
+      <UniqueIdentifier>{3ac3ddf6-b18a-4128-8f9a-68165187253d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\10.Player_Camera">
+      <UniqueIdentifier>{7e108b60-29a7-4d89-a9f6-9bf819fd95a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\02.Gun">
+      <UniqueIdentifier>{a03659c1-7534-483c-9f19-0b4cd5fe396e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\85.Sky">
+      <UniqueIdentifier>{ac9de1d3-dcd4-4917-8e65-f36ff9948d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\CrossHair">
+      <UniqueIdentifier>{8cbc3166-1af5-403b-8e96-82d7edcc12da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet">
+      <UniqueIdentifier>{ea705bab-0f98-4b2d-8e5c-2458dbfe8375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect">
+      <UniqueIdentifier>{5996236e-b6f3-4f6a-b7f3-49f0847c8d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\00.Particle">
+      <UniqueIdentifier>{d4c88f01-1c30-4c50-bedf-c5339b220056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\00.Particle\00.Muzzle_Fire">
+      <UniqueIdentifier>{6f73f157-5578-4976-8f39-ff240d77a7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster">
+      <UniqueIdentifier>{e6be3bad-4f73-4333-92ca-a27ba134b461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Boom">
+      <UniqueIdentifier>{aebbc610-bfa5-42ef-965f-df9ccf78579b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Billy">
+      <UniqueIdentifier>{bf6f0897-fd8f-45f4-b08c-679b0d8cf5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster">
+      <UniqueIdentifier>{2e2c370b-c6c0-4bb3-8787-5148a94f10df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestMonster_NorRobot">
+      <UniqueIdentifier>{64c4a88d-1f7e-44f8-980c-8a1759934e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Billy\Body_Robo_Billy">
+      <UniqueIdentifier>{1c97e7a7-c602-49fd-84b9-49ea3088425f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Boom\Body_Robo_Boom">
+      <UniqueIdentifier>{0fce4102-2921-48f7-9abb-a2810f04f4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Boom\HpBar_Robo_Boom">
+      <UniqueIdentifier>{b88cee5c-d94d-4d11-b1d1-15d187eb9067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\02.Gun\00.HandGun">
+      <UniqueIdentifier>{3cf33c38-247b-4a41-8996-acd830a33305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.LoadManager">
+      <UniqueIdentifier>{d2bfcc4d-62f3-40d4-b419-0bc36a6b308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\60.Building">
+      <UniqueIdentifier>{3f7e5f30-1351-483d-ac76-b70063dcb9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\60.Building\Tool_Building">
+      <UniqueIdentifier>{a8b4110b-f51a-483c-8711-4ed89d3adf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\60.Building\Tool_Building\TestWall">
+      <UniqueIdentifier>{c24e5133-3ec4-4d7e-b7c7-329a3d59f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\60.Building\InGame_Building">
+      <UniqueIdentifier>{b04be2cc-d81a-4ce9-aca5-d99844760cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\60.Building\InGame_Building\Building_Wall">
+      <UniqueIdentifier>{8ea6e98f-642d-45d9-9124-40312d0e85a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestMonster_Goliath">
+      <UniqueIdentifier>{9ca478c8-f332-4c79-9a12-ba53e8c15bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\Player_Bullet">
+      <UniqueIdentifier>{d5b3d886-66f9-4fcf-8e8a-aa5211dec5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\Player_Bullet\00.Bullet_HandGun">
+      <UniqueIdentifier>{d7c2c42a-8546-4744-85f4-3177a3f6cbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile">
+      <UniqueIdentifier>{8bab7094-ad2f-4b31-af67-86c806e52828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile\00.Missile_Boom">
+      <UniqueIdentifier>{53ea2c71-d9a0-4ea1-b955-090ee1418576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile\01.Missile_Goliath">
+      <UniqueIdentifier>{243634c6-9b6d-4a43-82a5-96bdb3daaf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile\02.Missile_Mortal">
+      <UniqueIdentifier>{9b5deea3-0d9d-4777-ae0a-b7af3488e60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\01.Blend">
+      <UniqueIdentifier>{6cef414e-56ba-403a-9b37-1cad0e4db516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\01.Blend\Explosion">
+      <UniqueIdentifier>{55805695-4d36-46f6-a07f-2083a1ee5cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Terrain\Stage01">
+      <UniqueIdentifier>{9f8fca0c-0585-4c25-91a3-fc206f50763e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Terrain\Stage02">
+      <UniqueIdentifier>{28f43ea7-969c-47c9-860e-e199385ed126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay\Stage01">
+      <UniqueIdentifier>{d4d4c868-1f98-45d8-b2e0-34b575bb7d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay\Stage02">
+      <UniqueIdentifier>{b6b9e994-ed1a-40b8-af5a-2160c4568019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\96.LevelChangeCollider">
+      <UniqueIdentifier>{ab2c21c6-b2d0-45af-baa4-710dd7fbe44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestMonster_Larva">
+      <UniqueIdentifier>{b4fde36c-2e9a-4fb7-b92a-95cef822b56e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Larva">
+      <UniqueIdentifier>{c26fb506-fd1c-4758-81d4-ceb76473b3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Larva\Body_Robo_Larva">
+      <UniqueIdentifier>{4ae5d6a6-a120-4b20-af35-0d24d165682d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile\03.Laser_Larva">
+      <UniqueIdentifier>{1af47100-e971-4973-970b-96fcad2c6020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Larva\HpBar_Robo_Larva">
+      <UniqueIdentifier>{755f3079-e605-4d85-8768-a1f3b1aa0fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestMonster_Small">
+      <UniqueIdentifier>{a49176b1-2269-4e75-b914-4b4f43fd640d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Small">
+      <UniqueIdentifier>{eb953c5e-130d-4ca5-af46-0909c028acdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Small\Body_Robo_Small">
+      <UniqueIdentifier>{31e9c9ae-8feb-4fbf-993f-16166db2d764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.PlayerManager">
+      <UniqueIdentifier>{466f9bc1-3462-48fb-b335-fdbe6d9b4efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower">
+      <UniqueIdentifier>{1967580f-e55c-44be-a238-46d0c6027602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Small\HpBar_Robo_Small">
+      <UniqueIdentifier>{3edcf025-1118-4ed9-bd83-6de2839c8897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\BulletCount">
+      <UniqueIdentifier>{4006be75-774d-442a-916b-68b431b0f1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Small\Small_Explosion">
+      <UniqueIdentifier>{f1655061-340d-4331-b682-2ac0be234c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\UINumber">
+      <UniqueIdentifier>{599d8142-7d94-426a-ab17-60c28a736dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\UINumber\UINumber_Manager">
+      <UniqueIdentifier>{6902d8da-77dd-4d9b-bbac-953c055650c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestMonster_Tower">
+      <UniqueIdentifier>{9b5b6958-7516-42ea-a700-f95256bfa974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestDoor">
+      <UniqueIdentifier>{74746a62-9b22-4fad-916d-fe77ed4e9d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Door">
+      <UniqueIdentifier>{8610f902-e669-487a-b528-0b477b75de0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Door\Body_Door">
+      <UniqueIdentifier>{583704d3-49e5-474c-9b12-4d0acb91b1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestBoss">
+      <UniqueIdentifier>{d9f5f543-a153-432a-b018-0c3a2f9b78c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestMonster_Billy">
+      <UniqueIdentifier>{6c98e5e1-8a36-48ef-b7a8-02137dfe052d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\Body_Boss_Tower">
+      <UniqueIdentifier>{93ee3210-c65f-4559-b9a7-b68736829e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\MonsterHpBar">
+      <UniqueIdentifier>{9e1d1933-5525-4b57-bcd6-38651e51fbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\BossHpBar">
+      <UniqueIdentifier>{75e1cbd8-8062-4293-9328-7c30d09904aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\BossHpBar\BossHpBarBackGround">
+      <UniqueIdentifier>{a2172c14-9efe-4902-8fc5-f02350d00dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\ProfileImage">
+      <UniqueIdentifier>{ce5036c9-f625-47b7-9668-b5f4a858e1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\65.Item">
+      <UniqueIdentifier>{05e55a23-53d9-4ee0-ac1a-be3f477316ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\65.Item\00.WeaponItem">
+      <UniqueIdentifier>{cf744358-5e5c-49bb-baa5-f0be2c464a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\02.Gun\01.Rifle">
+      <UniqueIdentifier>{8509b313-6b35-47b5-8535-e32a6dfa039b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\01.Blend\Impact">
+      <UniqueIdentifier>{99aff141-6a82-4c1b-be37-370dac1629e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94.FadeManager">
+      <UniqueIdentifier>{9c051d1b-1abc-4618-8c2f-0f67070e0eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\FadeObject">
+      <UniqueIdentifier>{26909bf0-93f7-4241-9cac-f380c0cdadfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\02.DashEffect">
+      <UniqueIdentifier>{0cac13d7-2b30-4f8b-ab81-f70bf2a360c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossMortal">
+      <UniqueIdentifier>{fea5c23f-1ac1-48a0-ace0-cc4386b15fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Goliath">
+      <UniqueIdentifier>{5f36ae39-7f0e-4b0b-8e80-975a56a8b27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Body_Robo_Goliath">
+      <UniqueIdentifier>{0d7e3f47-8c3f-4161-99c4-e0b27acaf1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Mortal">
+      <UniqueIdentifier>{989516ee-925d-42a8-8b0a-51a485b0bb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Mortal_Explosion">
+      <UniqueIdentifier>{6306b328-3d48-4e36-b1d6-5efcbcb72776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Robo_Goliath\HpBar_Robo_Goliath">
+      <UniqueIdentifier>{c6cd60b5-fda5-469a-b253-2ae9c3966438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile\04.Missle_Boss">
+      <UniqueIdentifier>{db2cb6cc-106e-43b9-8f50-294fddb46661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossFire">
+      <UniqueIdentifier>{10b04f76-1212-4022-a6f3-321ccf53e60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\03.Fire">
+      <UniqueIdentifier>{7a306873-ff0a-4f14-b737-e626f32a1e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\UIWeapon">
+      <UniqueIdentifier>{691bf9b6-7abb-44cf-b153-5d3799b28762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\Player_Bullet\01.Bullet_Rifle">
+      <UniqueIdentifier>{ed9ed931-b2d7-48f1-b247-553eec0e195a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestBox">
+      <UniqueIdentifier>{641cfc4b-9999-45cc-aa20-9ad62110f38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\ItemBox">
+      <UniqueIdentifier>{2e047028-2e1c-4ea3-aea4-d47ec7e0dbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\ItemBox\Body_ItemBox">
+      <UniqueIdentifier>{f9d48b1e-d5a7-48bd-9c80-c4be22dc0cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\UIInterection">
+      <UniqueIdentifier>{03f89123-6263-4163-817f-a402ea35b466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\FireRoad">
+      <UniqueIdentifier>{492a122a-b0f4-4370-be7a-65396162cb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\FireRoad\FireFrame">
+      <UniqueIdentifier>{3f42ca55-f212-4bd6-990b-fac53c02d83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\UIDamageNumber">
+      <UniqueIdentifier>{50de7ae1-579c-469e-9e2a-387af3126557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\90.Enemy_Missile\05.Laser_Boss">
+      <UniqueIdentifier>{23cb1010-9c90-4d1c-b39a-30daa1b5f377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\UILetters">
+      <UniqueIdentifier>{a2af2537-b3c1-40d4-b02c-33224c72fd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\04.HurtEffect">
+      <UniqueIdentifier>{fb0dbd85-f12f-4b1e-82b2-30bc6d54cff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\Boss_Explosion">
+      <UniqueIdentifier>{dfa25f8e-d15b-49bb-bd38-0116b9b39a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\05.MissileSmokeEffect">
+      <UniqueIdentifier>{3ba4a29d-e056-43de-926b-ee501b463cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossFinger">
+      <UniqueIdentifier>{a03cfd5f-4eab-444f-b16a-94a2bb90bc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\80.Boss_Barrier">
+      <UniqueIdentifier>{ef60407e-464f-43ec-9844-225b31940ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Player\02.Gun\02.Sniper">
+      <UniqueIdentifier>{39a2e128-11c5-48da-b42e-d9a54bfe5f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\ScopeScreen">
+      <UniqueIdentifier>{8f519d3d-ed6b-446b-bb5a-2375ebb6df19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\70.Bullet\Player_Bullet\02.Bullet_Sniper">
+      <UniqueIdentifier>{3bf01969-695e-4374-a38e-2544627023d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\06.MortalImpact">
+      <UniqueIdentifier>{10f7905e-81dc-49c3-beb3-794337554913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\TestMonster\TestGate">
+      <UniqueIdentifier>{d1adfe27-d082-4433-894b-5531dfc451cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Gate">
+      <UniqueIdentifier>{d6cb292f-2ce1-4691-b80a-e4625eebc478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Monster\InGameMonster\Gate\Body_Gate">
+      <UniqueIdentifier>{79448afd-3e4f-43dd-b0b9-ba3b34d33020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\ScopeScreen\ScopeGauge">
+      <UniqueIdentifier>{d94c9b18-c7e0-409e-9725-042afdb98cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\BossIntroScreen">
+      <UniqueIdentifier>{2c820fef-53be-453d-80b9-7143e7fffa23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\90.UI\BossIntroScreen\BossName">
+      <UniqueIdentifier>{fa32aea0-dcf3-4434-923c-9ef47090508c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\07.BurnEffect">
+      <UniqueIdentifier>{1e908e40-fdad-4412-b4c6-1501b9e3e0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\08.Explosion">
+      <UniqueIdentifier>{f6b9fda5-fd75-4f64-903e-c3c228c60351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.BackGround\00.Loading_Level\00.Bus">
+      <UniqueIdentifier>{18d064a1-35af-4c52-9f71-2d9de10a0398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\09.BreakEffect">
+      <UniqueIdentifier>{81f8235a-2982-428c-ad74-b8609a22fa4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\75.Effect\10.HealEffect">
+      <UniqueIdentifier>{0e35f43e-5b07-4837-8b59-c0c16e123f89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Level\01,Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>02.GameObject\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\imgui_impl_dx11.h">
+      <Filter>100.ImGui\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\imgui_impl_win32.h">
+      <Filter>100.ImGui\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>100.ImGui\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>100.ImGui\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>100.ImGui\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>100.ImGui\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>100.ImGui\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>100.ImGui\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImGui_Manager.h">
+      <Filter>100.ImGui\ImGui_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StartBackGround.h">
+      <Filter>02.GameObject\00.BackGround\00.Loading_Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Level\99.Loading\Level_Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02.GameObject\03.Camera\Free_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerHpbar.h">
+      <Filter>02.GameObject\90.UI\PlayerHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBarBackGround.h">
+      <Filter>02.GameObject\90.UI\PlayerHpBar\HpBarBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MouseCursor.h">
+      <Filter>02.GameObject\90.UI\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapToolTerrain.h">
+      <Filter>02.GameObject\80.MapToolTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_MapTool.h">
+      <Filter>01.Level\80.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_MapTool.h">
+      <Filter>02.GameObject\03.Camera\MapTool_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Player.h">
+      <Filter>02.GameObject\02.Player\00.Body_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon.h">
+      <Filter>02.GameObject\02.Player\01.Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestMonster.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Billy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TempCollider.h">
+      <Filter>02.GameObject\95.TempCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Camera.h">
+      <Filter>02.GameObject\02.Player\10.Player_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gun.h">
+      <Filter>02.GameObject\02.Player\02.Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02.GameObject\85.Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CrossHair.h">
+      <Filter>02.GameObject\90.UI\CrossHair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_MuzzleFire.h">
+      <Filter>02.GameObject\75.Effect\00.Particle\00.Muzzle_Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestNorRobo.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_NorRobot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Robo_Billy.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Billy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Robo_Boom.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Boom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Robo_Billy.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Billy\Body_Robo_Billy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Robo_Boom.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Boom\Body_Robo_Boom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HandGun.h">
+      <Filter>02.GameObject\02.Player\02.Gun\00.HandGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet_HandGun.h">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet\00.Bullet_HandGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Load_Manager.h">
+      <Filter>96.LoadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestWall.h">
+      <Filter>02.GameObject\60.Building\Tool_Building\TestWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestBuilding.h">
+      <Filter>02.GameObject\60.Building\Tool_Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Building.h">
+      <Filter>02.GameObject\60.Building\InGame_Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Wall.h">
+      <Filter>02.GameObject\60.Building\InGame_Building\Building_Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet.h">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Missile.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Missile_Boom.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\00.Missile_Boom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Robo_Goliath.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Robo_Goliath.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Body_Robo_Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Missile_Goliath.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\01.Missile_Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mortal.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Mortal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Missile_Mortal.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\02.Missile_Mortal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Explosion.h">
+      <Filter>02.GameObject\75.Effect\01.Blend\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BasicTerrain.h">
+      <Filter>02.GameObject\01.Terrain\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossTerrain.h">
+      <Filter>02.GameObject\01.Terrain\Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Level\02.GamePlay\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Boss.h">
+      <Filter>01.Level\02.GamePlay\Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LevelChangeCollider.h">
+      <Filter>02.GameObject\96.LevelChangeCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestLarva.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Larva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Robo_Larva.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Larva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Robo_Larva.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Larva\Body_Robo_Larva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Laser_Larva.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\03.Laser_Larva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestSmall.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Small</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Robo_Small.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Robo_Small.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small\Body_Robo_Small</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Manager.h">
+      <Filter>95.PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Tower.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBar_Robo_Boom.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Boom\HpBar_Robo_Boom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mon_HpBar.h">
+      <Filter>02.GameObject\90.UI\MonsterHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mortal_Explosion.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Mortal_Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BulletCount.h">
+      <Filter>02.GameObject\90.UI\BulletCount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Small_Explosion.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small\Small_Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UINumber.h">
+      <Filter>02.GameObject\90.UI\UINumber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UINumber_Manager.h">
+      <Filter>02.GameObject\90.UI\UINumber\UINumber_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestDoor.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestGoliath.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Door.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Door.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Door\Body_Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestBoss.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Boss_Tower.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\Body_Boss_Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossHpBar.h">
+      <Filter>02.GameObject\90.UI\BossHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossHpBarBackGround.h">
+      <Filter>02.GameObject\90.UI\BossHpBar\BossHpBarBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ProfileImage.h">
+      <Filter>02.GameObject\90.UI\ProfileImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBar_Robo_Goliath.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\HpBar_Robo_Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item.h">
+      <Filter>02.GameObject\65.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WeaponItem.h">
+      <Filter>02.GameObject\65.Item\00.WeaponItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rifle.h">
+      <Filter>02.GameObject\02.Player\02.Gun\01.Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Impact.h">
+      <Filter>02.GameObject\75.Effect\01.Blend\Impact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fade_Manager.h">
+      <Filter>94.FadeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FadeObject.h">
+      <Filter>02.GameObject\90.UI\FadeObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DashEffect.h">
+      <Filter>02.GameObject\75.Effect\02.DashEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Mortal.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossMortal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Missile_Boss.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\04.Missle_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Fire.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossFire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Fire.h">
+      <Filter>02.GameObject\75.Effect\03.Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIWeapon.h">
+      <Filter>02.GameObject\90.UI\UIWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet_Rifle.h">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet\01.Bullet_Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestBox.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemBox.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Box.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\ItemBox\Body_ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIInteraction.h">
+      <Filter>02.GameObject\90.UI\UIInterection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FireRoad.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\FireRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fire_Frame.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\FireRoad\FireFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DamageNumber.h">
+      <Filter>02.GameObject\90.UI\UIDamageNumber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Laser_Boss.h">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\05.Laser_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UILetters.h">
+      <Filter>02.GameObject\90.UI\UILetters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HurtEffect.h">
+      <Filter>02.GameObject\75.Effect\04.HurtEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Explosion.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\Boss_Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MissileSmokeParticle.h">
+      <Filter>02.GameObject\75.Effect\05.MissileSmokeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossFinger.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossFinger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Barrier.h">
+      <Filter>02.GameObject\70.Bullet\80.Boss_Barrier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBar_Robo_Larva.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Larva\HpBar_Robo_Larva</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBar_Robo_Small.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small\HpBar_Robo_Small</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sniper.h">
+      <Filter>02.GameObject\02.Player\02.Gun\02.Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ScopeScreen.h">
+      <Filter>02.GameObject\90.UI\ScopeScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet_Sniper.h">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet\02.Bullet_Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MortalImpact.h">
+      <Filter>02.GameObject\75.Effect\06.MortalImpact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapToolMonster.h">
+      <Filter>02.GameObject\04.Monster\TestMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TestGate.h">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gate.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Gate.h">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Gate\Body_Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ScopeGauge.h">
+      <Filter>02.GameObject\90.UI\ScopeScreen\ScopeGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossIntroScreen.h">
+      <Filter>02.GameObject\90.UI\BossIntroScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BurnEffect.h">
+      <Filter>02.GameObject\75.Effect\07.BurnEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dying_Explode.h">
+      <Filter>02.GameObject\75.Effect\08.Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bus.h">
+      <Filter>02.GameObject\00.BackGround\00.Loading_Level\00.Bus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BreakEffect.h">
+      <Filter>02.GameObject\75.Effect\09.BreakEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HealEffect.h">
+      <Filter>02.GameObject\75.Effect\10.HealEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Include</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Level\01,Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>02.GameObject\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\imgui_impl_dx11.cpp">
+      <Filter>100.ImGui\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\imgui_impl_win32.cpp">
+      <Filter>100.ImGui\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>100.ImGui\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>100.ImGui\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>100.ImGui\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>100.ImGui\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>100.ImGui\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImGui_Manager.cpp">
+      <Filter>100.ImGui\ImGui_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StartBackGround.cpp">
+      <Filter>02.GameObject\00.BackGround\00.Loading_Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Level\99.Loading\Level_Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02.GameObject\03.Camera\Free_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerHpbar.cpp">
+      <Filter>02.GameObject\90.UI\PlayerHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBarBackGround.cpp">
+      <Filter>02.GameObject\90.UI\PlayerHpBar\HpBarBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MouseCursor.cpp">
+      <Filter>02.GameObject\90.UI\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapToolTerrain.cpp">
+      <Filter>02.GameObject\80.MapToolTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_MapTool.cpp">
+      <Filter>01.Level\80.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_MapTool.cpp">
+      <Filter>02.GameObject\03.Camera\MapTool_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Player.cpp">
+      <Filter>02.GameObject\02.Player\00.Body_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon.cpp">
+      <Filter>02.GameObject\02.Player\01.Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestMonster.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Billy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TempCollider.cpp">
+      <Filter>02.GameObject\95.TempCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Camera.cpp">
+      <Filter>02.GameObject\02.Player\10.Player_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gun.cpp">
+      <Filter>02.GameObject\02.Player\02.Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02.GameObject\85.Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CrossHair.cpp">
+      <Filter>02.GameObject\90.UI\CrossHair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_MuzzleFire.cpp">
+      <Filter>02.GameObject\75.Effect\00.Particle\00.Muzzle_Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestNorRobo.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_NorRobot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Robo_Billy.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Billy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Robo_Boom.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Boom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Robo_Billy.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Billy\Body_Robo_Billy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Robo_Boom.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Boom\Body_Robo_Boom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HandGun.cpp">
+      <Filter>02.GameObject\02.Player\02.Gun\00.HandGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet_HandGun.cpp">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet\00.Bullet_HandGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Load_Manager.cpp">
+      <Filter>96.LoadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestWall.cpp">
+      <Filter>02.GameObject\60.Building\Tool_Building\TestWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestBuilding.cpp">
+      <Filter>02.GameObject\60.Building\Tool_Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Building.cpp">
+      <Filter>02.GameObject\60.Building\InGame_Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Wall.cpp">
+      <Filter>02.GameObject\60.Building\InGame_Building\Building_Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet.cpp">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Missile.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Missile_Boom.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\00.Missile_Boom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Robo_Goliath.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Robo_Goliath.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Body_Robo_Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestGoliath.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Missile_Goliath.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\01.Missile_Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mortal.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Mortal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Missile_Mortal.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\02.Missile_Mortal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Explosion.cpp">
+      <Filter>02.GameObject\75.Effect\01.Blend\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BasicTerrain.cpp">
+      <Filter>02.GameObject\01.Terrain\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossTerrain.cpp">
+      <Filter>02.GameObject\01.Terrain\Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Level\02.GamePlay\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Boss.cpp">
+      <Filter>01.Level\02.GamePlay\Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LevelChangeCollider.cpp">
+      <Filter>02.GameObject\96.LevelChangeCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestLarva.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Larva</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Robo_Larva.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Larva</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Robo_Larva.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Larva\Body_Robo_Larva</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Laser_Larva.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\03.Laser_Larva</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestSmall.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestMonster_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Robo_Small.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Robo_Small.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small\Body_Robo_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Manager.cpp">
+      <Filter>95.PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Tower.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBar_Robo_Boom.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Boom\HpBar_Robo_Boom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mon_HpBar.cpp">
+      <Filter>02.GameObject\90.UI\MonsterHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mortal_Explosion.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\Mortal_Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BulletCount.cpp">
+      <Filter>02.GameObject\90.UI\BulletCount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Small_Explosion.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small\Small_Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UINumber.cpp">
+      <Filter>02.GameObject\90.UI\UINumber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UINumber_Manager.cpp">
+      <Filter>02.GameObject\90.UI\UINumber\UINumber_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestDoor.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Door.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Door.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Door\Body_Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestBoss.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Boss_Tower.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\Body_Boss_Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossHpBar.cpp">
+      <Filter>02.GameObject\90.UI\BossHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossHpBarBackGround.cpp">
+      <Filter>02.GameObject\90.UI\BossHpBar\BossHpBarBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ProfileImage.cpp">
+      <Filter>02.GameObject\90.UI\ProfileImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBar_Robo_Goliath.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Goliath\HpBar_Robo_Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item.cpp">
+      <Filter>02.GameObject\65.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WeaponItem.cpp">
+      <Filter>02.GameObject\65.Item\00.WeaponItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rifle.cpp">
+      <Filter>02.GameObject\02.Player\02.Gun\01.Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Impact.cpp">
+      <Filter>02.GameObject\75.Effect\01.Blend\Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fade_Manager.cpp">
+      <Filter>94.FadeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FadeObject.cpp">
+      <Filter>02.GameObject\90.UI\FadeObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DashEffect.cpp">
+      <Filter>02.GameObject\75.Effect\02.DashEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Mortal.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossMortal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Missile_Boss.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\04.Missle_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Fire.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossFire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Fire.cpp">
+      <Filter>02.GameObject\75.Effect\03.Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIWeapon.cpp">
+      <Filter>02.GameObject\90.UI\UIWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet_Rifle.cpp">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet\01.Bullet_Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestBox.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemBox.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Box.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\ItemBox\Body_ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIInteraction.cpp">
+      <Filter>02.GameObject\90.UI\UIInterection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FireRoad.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\FireRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fire_Frame.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\FireRoad\FireFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DamageNumber.cpp">
+      <Filter>02.GameObject\90.UI\UIDamageNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Laser_Boss.cpp">
+      <Filter>02.GameObject\70.Bullet\90.Enemy_Missile\05.Laser_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UILetters.cpp">
+      <Filter>02.GameObject\90.UI\UILetters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HurtEffect.cpp">
+      <Filter>02.GameObject\75.Effect\04.HurtEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Explosion.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\Boss_Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MissileSmokeParticle.cpp">
+      <Filter>02.GameObject\75.Effect\05.MissileSmokeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossFinger.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Boss_Tower\BossFinger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Barrier.cpp">
+      <Filter>02.GameObject\70.Bullet\80.Boss_Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBar_Robo_Larva.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Larva\HpBar_Robo_Larva</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBar_Robo_Small.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Robo_Small\HpBar_Robo_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sniper.cpp">
+      <Filter>02.GameObject\02.Player\02.Gun\02.Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ScopeScreen.cpp">
+      <Filter>02.GameObject\90.UI\ScopeScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet_Sniper.cpp">
+      <Filter>02.GameObject\70.Bullet\Player_Bullet\02.Bullet_Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MortalImpact.cpp">
+      <Filter>02.GameObject\75.Effect\06.MortalImpact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapToolMonster.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TestGate.cpp">
+      <Filter>02.GameObject\04.Monster\TestMonster\TestGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gate.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Gate.cpp">
+      <Filter>02.GameObject\04.Monster\InGameMonster\Gate\Body_Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ScopeGauge.cpp">
+      <Filter>02.GameObject\90.UI\ScopeScreen\ScopeGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossIntroScreen.cpp">
+      <Filter>02.GameObject\90.UI\BossIntroScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BurnEffect.cpp">
+      <Filter>02.GameObject\75.Effect\07.BurnEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dying_Explode.cpp">
+      <Filter>02.GameObject\75.Effect\08.Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bus.cpp">
+      <Filter>02.GameObject\00.BackGround\00.Loading_Level\00.Bus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BreakEffect.cpp">
+      <Filter>02.GameObject\75.Effect\09.BreakEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HealEffect.cpp">
+      <Filter>02.GameObject\75.Effect\10.HealEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Include</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Include</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Include</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPlayerTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPlayerHpBarTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxSkyCube.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxRoboHpBarTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxDefferedNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxFadeTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPlayerAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxExplosionTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosVerTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxLaserMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxLetterTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxFireParticleEffect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxSmokeParticleEffect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxBarreirTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>100.ImGui\Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

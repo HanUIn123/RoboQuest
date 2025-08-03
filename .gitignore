@@ -1,0 +1,19 @@
+# 빌드 결과 무시
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.log
+*.pch
+*.sdf
+
+# VS 설정 관련
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# 기타
+*.zip
+*.pdb
