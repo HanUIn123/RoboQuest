@@ -1,0 +1,91 @@
+# RoboQuest 개인 프로젝트 (DirectX11 기반 FPS 게임)
+
+## ■ 개요
+- RoboQuest는 FPS 기반 보스전 중심 슈팅 게임입니다.
+- **C++ / DirectX11 / HLSL / ImGui / Windows API 기반으로 자체 엔진을 사용하여 제작한 개인 프로젝트입니다.**
+
+## ■ 개발 환경
+- 언어: C++, HLSL
+- 개발 도구: Visual Studio, Windows API, DirectX11, ImGui, Fmod
+
+## ■ 시연 영상
+- [▶️ RoboQuest 시연 영상](https://youtu.be/q8lf1wbsMpg)
+
+## ■ 관련 링크
+- [GitHub 메인 프로필 보기](https://github.com/HanUIn123)
+- [RoboQuest GitHub 저장소](https://github.com/HanUIn123/RoboQuest)
+
+---
+
+## ■ 주요 구현 기능
+
+### 1. FPS 조작 시스템
+- **RayCast 기반 슈팅 시스템** 구현
+- **무기 스왑 기능**: 슬롯 변경에 따라 무기 종류 및 애니메이션 전환
+- **스나이퍼 조준 줌 처리**: 마우스 우클릭 시 시야 축소 및 크로스헤어 전환
+- ![FPS 시스템](./Images/FPS_Shoot.gif)
+
+### 2. 플레이어 컨트롤
+- 기본 **WASD 이동**, **대쉬**, **점프**, **슈팅**, **장전 기능** 구현
+- 무기 탄약 수, 재장전 시 UI 및 사운드 동기화
+- ![플레이어 조작](./Images/Player_Control.gif)
+
+### 3. 몬스터 AI 시스템
+- **Navigation 영역 기반 경로 이동** 구현
+- **감지 → 추적 → 공격 → 사망 처리** 상태 전이 설계
+- **디졸브 셰이더 기반 사망 연출**, **파편 분리 및 피격 효과** 적용
+- 대형 몬스터는 **패턴 공격 로직** 포함
+- ![몬스터 AI](./Images/Monster_AI.gif)
+
+### 4. 보스 AI 시스템
+- 보스 등장 시 전용 연출 및 UI 연동 처리
+- **4가지 보스 공격 패턴**:
+  1. 일반 미사일 연사
+  2. 랜덤 좌표 기반 대미사일 공격
+  3. 전기 트랩 생성
+  4. 장벽 생성 및 공격 차단
+- ![보스 AI](./Images/Boss_AI.gif)
+
+### 5. UI 시스템 및 연출
+- **체력바, 탄약 UI, 피격 연출 UI** 등 HUD 구현
+- 붉은 화면 틴트 + 피격 방향 화살표 + 플레이어 상태 전환 시각화
+- ![UI 연출](./Images/UI_Overlay.gif)
+
+### 6. 이펙트 시스템
+- 총알 트레일, 피격 시 잔상 및 전기 이펙트
+- 몬스터 사망 시 분산형 파편 + 음향 효과 동기화
+- Boss 스킬 이펙트, 플레이어 슈팅 이펙트 각각 다르게 분리 처리
+- ![이펙트 연출](./Images/Effects.gif)
+
+---
+
+## ■ 담당 파트 핵심 요약
+- FPS 조작 시스템 (RayCast 슈팅, 무기 스왑, 조준 줌)
+- 플레이어 입력 처리 및 상태 기반 이동/점프/장전
+- 몬스터 AI: 감지/추적/공격/사망 + 패턴 로직
+- 보스 AI: 4가지 공격 패턴 + 등장 연출
+- 실시간 HUD UI 시스템 (체력, 탄환, 피격 방향)
+- 전투/피격/사망 관련 FX 이펙트 연출
+
+---
+
+## ■ 디렉토리 예시
+```bash
+/RoboQuest
+├─ Source/
+│  ├─ GameEngine/
+│  ├─ Player/
+│  ├─ Monster/
+│  ├─ Boss/
+│  └─ UI/
+├─ Shader/
+│  ├─ Default.hlsl
+│  └─ BossDissolve.hlsl
+├─ Images/
+│  ├─ FPS_Shoot.gif
+│  ├─ Player_Control.gif
+│  ├─ Monster_AI.gif
+│  ├─ Boss_AI.gif
+│  ├─ UI_Overlay.gif
+│  └─ Effects.gif
+└─ README.md
