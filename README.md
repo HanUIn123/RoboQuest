@@ -9,7 +9,7 @@
 - 개발 도구: Visual Studio, Windows API, DirectX11, ImGui, Fmod
 
 ## ■ 시연 영상
-- [RoboQuest 시연 영상](https://youtube/q8lf1wbsMpg)
+- [RoboQuest 시연 영상](https://www.youtube.com/watch?v=q8lf1wbsMpg)
 
 ---
 
