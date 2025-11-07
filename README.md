@@ -1,3 +1,12 @@
+<!-- 기술 배지 -->
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![DirectX 11](https://img.shields.io/badge/DirectX11-107C10?style=for-the-badge&logo=directx&logoColor=white)
+![HLSL](https://img.shields.io/badge/HLSL-1E90FF?style=for-the-badge&logoColor=white)
+![ImGui](https://img.shields.io/badge/ImGui-323330?style=for-the-badge&logo=imgui&logoColor=white)
+![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Windows API](https://img.shields.io/badge/Windows%20API-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![FMOD](https://img.shields.io/badge/FMOD-000000?style=for-the-badge&logo=fmod&logoColor=white)
+
 # RoboQuest 개인 프로젝트 (DirectX11 기반 FPS 게임)
 
 ## ■ 개요
@@ -10,6 +19,9 @@
 
 ## ■ 시연 영상
 - [RoboQuest 시연 영상](https://youtu.be/q8If1wbsMpg)
+
+## ■ 기술 소개서 PDF 링크, 코드 
+-[프로젝트 기술소개서 PDF](https://drive.google.com/file/d/1QBfT7yibSNXxZxFJ83kRwVOQofI6GkHF/view?usp=drive_link)
 
 ---
 
