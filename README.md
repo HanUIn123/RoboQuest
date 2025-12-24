@@ -95,9 +95,8 @@ ShaderFiles
   2. 플레이어를 향해 **베지어 곡선 경로**로 날아가는 포탄 공격
   3. **화염 지대 필드 생성**으로 이동 제한 및 대미지 영역 형성
   4. **방패 소환**을 통한 플레이어 슈팅 차단 (총알 무효화)
-| 보스 공격 패턴 (직선 사격) | 베지어 곡선 패턴 | 방패 소환 패턴 |
-| :---: | :---: | :---: |
-| ![NormalShooting](ShortsResults/NormalShooting.gif) | ![BezierPattern](ShortsResults/BezierPattern.gif) | ![BarrierPattern](ShortsResults/BarrierPattern.gif) |
+![NormalShooting](ShortsResults/NormalShooting.gif) ![BezierPattern](ShortsResults/BezierPattern.gif)
+![BarrierPattern](ShortsResults/BarrierPattern.gif)
 
 ### 5. UI 연출
 - **체력 UI**, **유닛 HP 연동 UI**, **무기 탄약 UI** 구현
