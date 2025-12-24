@@ -102,6 +102,7 @@ ShaderFiles
 - **체력 UI**, **유닛 HP 연동 UI**, **무기 탄약 UI** 구현
 - **직교 투영 기준 체력/빌보드 처리**로 월드 오브젝트와 연동
 - 상호작용에 대응하는 **폰트 기반 안내 UI**도 구성
+
 ![PlayerShoot](ShortsResults/PlayerShoot.gif)
 
 ### 6. 이펙트 처리
@@ -109,6 +110,7 @@ ShaderFiles
 - **대쉬 상태에서 반투명 잔상 이펙트** 적용
 - 플레이어 피격 시 붉은 화면 효과와 함께 시각적 경고 연출
 - 총격 시 **"BANG"** 텍스트 이펙트 출력
+
 ![HealEffect](ShortsResults/HealEffect.gif)
 
 ---
