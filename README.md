@@ -24,28 +24,30 @@
 - [프로젝트 기술소개서 PDF](https://drive.google.com/file/d/1QBfT7yibSNXxZxFJ83kRwVOQofI6GkHF/view?usp=drive_link)
 
 ## ■ 담당 프로젝트 구조
-📂 Client  
-└── 📂 Private  
-　　├── CMonster.cpp  
-    │　　├── Boss_Tower.cpp
-    │　　├── Robo_Goliath.cpp  
-　　├── CPlayer.cpp  
-　　│　　├── Player_Camera.cpp  
-　　│　　├── Gun.cpp  
-    │　　       ├── Sniper.cpp  
-　　│　　└── Body_Player.cpp  
-　　├── CItem.cpp  
-    │　　├── CWeaponItem.cpp 
-　　├── CBullet.cpp  
-    │　　├── CBullet_Rifle.cpp 
-    ├── Missile.cpp 
-    │　　├── Missile_Boss.cpp 
-    │　　├── Missile_Goliath.cpp
-    -----------------------------
-    ------ Effect ------
-　　├── DashEffect.cpp  
-　　├── HurtEffect.cpp  
-  　├── BurnEffect.cpp  
+
+### 📂 Client
+Client
+└── Private
+    ├── CMonster.cpp
+    │   ├── Boss_Tower.cpp
+    │   └── Robo_Goliath.cpp
+    ├── CPlayer.cpp
+    │   ├── Player_Camera.cpp
+    │   ├── Gun.cpp
+    │   │   └── Sniper.cpp
+    │   └── Body_Player.cpp
+    ├── CItem.cpp
+    │   └── CWeaponItem.cpp
+    ├── CBullet.cpp
+    │   └── CBullet_Rifle.cpp
+    ├── Missile.cpp
+    │   ├── Missile_Boss.cpp
+    │   └── Missile_Goliath.cpp
+    ├── -----------------------------
+    ├── ------ Effect ------
+    ├── DashEffect.cpp
+    ├── HurtEffect.cpp
+    └── BurnEffect.cpp
 
 📂 Engine  
 └── 📂 Private  
