@@ -86,6 +86,7 @@ ShaderFiles
 - **감지 → 추적 → 공격 → 사망** 상태 전이 설계
 - 공격 시 플레이어를 추적하여 근접/원거리 공격 수행
 - 사망 시 **디졸브 셰이더**를 이용한 시각적 연출 구현
+![TankAttack](ShortsResults/TankAttack.gif)
 
 ### 4. 보스 AI
 - 보스 등장을 알리는 **전용 연출 + 전용 UI 패널** 구현
@@ -94,17 +95,22 @@ ShaderFiles
   2. 플레이어를 향해 **베지어 곡선 경로**로 날아가는 포탄 공격
   3. **화염 지대 필드 생성**으로 이동 제한 및 대미지 영역 형성
   4. **방패 소환**을 통한 플레이어 슈팅 차단 (총알 무효화)
+| 보스 공격 패턴 (직선 사격) | 베지어 곡선 패턴 | 방패 소환 패턴 |
+| :---: | :---: | :---: |
+| ![NormalShooting](ShortsResults/NormalShooting.gif) | ![BezierPattern](ShortsResults/BezierPattern.gif) | ![BarrierPattern](ShortsResults/BarrierPattern.gif) |
 
 ### 5. UI 연출
 - **체력 UI**, **유닛 HP 연동 UI**, **무기 탄약 UI** 구현
 - **직교 투영 기준 체력/빌보드 처리**로 월드 오브젝트와 연동
 - 상호작용에 대응하는 **폰트 기반 안내 UI**도 구성
+![PlayerShoot](ShortsResults/PlayerShoot.gif)
 
 ### 6. 이펙트 처리
 - **총알 트레일** 및 **피격 시 탄환 반응 이펙트**
 - **대쉬 상태에서 반투명 잔상 이펙트** 적용
 - 플레이어 피격 시 붉은 화면 효과와 함께 시각적 경고 연출
 - 총격 시 **"BANG"** 텍스트 이펙트 출력
+![HealEffect](ShortsResults/HealEffect.gif)
 
 ---
 
