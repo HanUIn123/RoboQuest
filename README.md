@@ -26,7 +26,6 @@
 ## ■ 담당 프로젝트 구조
 
 ### 📂 Client
-```text
 Client
 └── Private
     ├── CMonster.cpp
@@ -59,7 +58,7 @@ Engine
     ├── EdgeNavi.cpp
     └── Cell.cpp
 
-### 📂 Engine
+### 📂 ShaderFiles
 ShaderFiles
 ├── Shader_VtxRoboHpBarTex.hlsl
 ├── Shader_VtxSmokeParticleEffect.hlsl
