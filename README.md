@@ -23,7 +23,7 @@
 ## ■ 기술 소개서 PDF 링크, 코드 
 - [프로젝트 기술소개서 PDF](https://drive.google.com/file/d/1QBfT7yibSNXxZxFJ83kRwVOQofI6GkHF/view?usp=drive_link)
 
-## ■ 담당 프로젝트 구조
+## ■ 핵심 프로젝트 구조
 
 ```text
 ### 📂 Client
