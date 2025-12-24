@@ -25,6 +25,7 @@
 
 ## ■ 담당 프로젝트 구조
 
+```text
 ### 📂 Client
 Client
 └── Private
@@ -64,7 +65,7 @@ ShaderFiles
 ├── Shader_VtxSmokeParticleEffect.hlsl
 ├── Shader_VtxLaserMesh.hlsl
 └── Shader_VtxBarreirTex.hlsl
-
+```
 ---
 
 ## ■ 주요 구현 기능
