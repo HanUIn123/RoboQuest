@@ -54,10 +54,10 @@ HRESULT CModel::Initialize_Prototype(MODEL _eModelType, const _char* _ModelFileP
     if (nullptr == m_pAIScene)
         return E_FAIL;
 
-    // ¸â¹ö º¯¼ö¿¡ ÀúÀåÇØÁÖÀÚ. ¾ÈÇÏ¸é Å«ÀÏ³² Àû¿ëÀÌ ¾ÈµÇ¾î¼­.
+    // ë©¤ë²„ ë³€ìˆ˜ì— ì €ìž¥í•´ì£¼ìž. ì•ˆí•˜ë©´ í°ì¼ë‚¨ ì ìš©ì´ ì•ˆë˜ì–´ì„œ.
     XMStoreFloat4x4(&m_PreTransformMatrix, _PreTransformMatrix);
 
-    // ¿©±â´Ù°¡ ÀúÀå¾ÈÇÏ¸é ¹«Á¶°Ç ¸ðµ¨ Å¸ÀÔÀÌ. Non _ anim À¸·Î °¡¹ö¸²;
+    // ì—¬ê¸°ë‹¤ê°€ ì €ìž¥ì•ˆí•˜ë©´ ë¬´ì¡°ê±´ ëª¨ë¸ íƒ€ìž…ì´. Non _ anim ìœ¼ë¡œ
     m_eModelType = _eModelType;
 
     if (FAILED(Ready_Bones(m_pAIScene->mRootNode)))
@@ -99,7 +99,7 @@ HRESULT CModel::Initialize_Prototype_SaveData(MODEL _eModelType, HWND _pHwnd, co
         MSG_BOX("Failed To Create File!!");
         return E_FAIL;
     }
-    // ÆÄÀÏ ¾²±â
+    // íŒŒì¼ ì“°ê¸°
     DWORD dwByte = 0;
 
     if (FAILED(Ready_Bones_Save(m_pAIScene->mRootNode, hFile)))
@@ -121,17 +121,6 @@ HRESULT CModel::Initialize_Prototype_SaveData(MODEL _eModelType, HWND _pHwnd, co
 
 HRESULT CModel::Initialize_Prototype_LoadData(MODEL _eModelType, HWND _pHwnd, const _char* _ModelFilePath, const _tchar* _LoadDataFilePath, _fmatrix _PreTransformMatrix)
 {
-    //_uint   iFlags = {};
-
-    //iFlags = aiProcess_ConvertToLeftHanded | aiProcessPreset_TargetRealtime_Fast;
-
-    //if (MODEL_NONANIM == _eModelType)
-    //    iFlags |= aiProcess_PreTransformVertices;
-
-    //m_pAIScene = m_Importer.ReadFile(_ModelFilePath, iFlags);
-    //if (nullptr == m_pAIScene)
-    //    return E_FAIL;
-
     XMStoreFloat4x4(&m_PreTransformMatrix, _PreTransformMatrix);
 
     m_eModelType = _eModelType;
@@ -144,7 +133,7 @@ HRESULT CModel::Initialize_Prototype_LoadData(MODEL _eModelType, HWND _pHwnd, co
         MSG_BOX("Failed To Create File!!");
         return E_FAIL;
     }
-    // ÆÄÀÏ ¾²±â
+    // íŒŒì¼ ì“°ê¸°
     DWORD dwByte = 0;
 
     if (FAILED(Ready_Bones_Load(hFile)))
@@ -171,13 +160,7 @@ HRESULT CModel::Initialize(void* _pArg)
 
 HRESULT CModel::Render(_uint _iMeshIndex)
 {
-    //for (auto& pMesh : m_vecMeshes)
-    //{
-    //    pMesh->Bind_InputAssembler();
-    //    pMesh->Render();
-    //}
-
-    // ÀÌÁ¦, °¢ ¸Þ½¬¿¡¼­ ÀÛ¾÷ 
+    // ì´ì œ, ê° ë©”ì‰¬ì—ì„œ ìž‘ì—… 
     m_vecMeshes[_iMeshIndex]->Bind_InputAssembler();
     m_vecMeshes[_iMeshIndex]->Render();
 
@@ -193,11 +176,10 @@ HRESULT CModel::Bind_Material(CShader* _pShader, _uint _iMeshIndex, aiTextureTyp
 
 HRESULT CModel::Bind_BoneMatrices(CShader* _pShader, _uint _iMeshIndex, const _char* _pConstantName)
 {
-    // ³»°¡ µé°í ÀÖ´Â ¸Þ½¬µé Áß¿¡¼­, ³»°¡ ±×¸±·Á°íÇÏ´Â ¸Þ½¬ ÀÎµ¦½º ¸î¹øÂ° ²¨! 
-    // ÀÌ ¸Þ½¬´Â ÀÚ±â°¡ ÀÌ¿ëÇØ¾ßÇÒ »ÀÀÇ ¹è¿­À» ´Ù µé°í ÀÖ´Ù.
-    // ¸Þ½¬°¡ µé°í ÀÖ´Â °Ç »ÀÀÇ ÀÎµ¦½º¸¸ µé°íÀÖ¾î¼­, »À Çà·ÄÀ» Ã£Áö¸øÇÏ´Ï, ¸ðµ¨ÀÌ µé°í ÀÖ´Â
-    // ¸ðµ¨ÀÇ ÀüÃ¼ »À ¹è¿­À» ´øÁ®Áà¾ßÇÒµí!! º¤ÅÍ¸¦ ¸»ÀÌÁö. 
-
+    // ë‚´ê°€ ë“¤ê³  ìžˆëŠ” ë©”ì‰¬ë“¤ ì¤‘ì—ì„œ, ë‚´ê°€ ê·¸ë¦´ë ¤ê³ í•˜ëŠ” ë©”ì‰¬ ì¸ë±ìŠ¤ ëª‡ë²ˆì§¸ êº¼! 
+    // ì´ ë©”ì‰¬ëŠ” ìžê¸°ê°€ ì´ìš©í•´ì•¼í•  ë¼ˆì˜ ë°°ì—´ì„ ë‹¤ ë“¤ê³  ìžˆë‹¤.
+    // ë©”ì‰¬ê°€ ë“¤ê³  ìžˆëŠ” ê±´ ë¼ˆì˜ ì¸ë±ìŠ¤ë§Œ ë“¤ê³ ìžˆì–´ì„œ, ë¼ˆ í–‰ë ¬ì„ ì°¾ì§€ëª»í•˜ë‹ˆ, ëª¨ë¸ì´ ë“¤ê³  ìžˆëŠ”
+    // ëª¨ë¸ì˜ ì „ì²´ ë¼ˆ ë°°ì—´ì„ ë˜ì ¸ì¤˜ì•¼í• ë“¯!! ë²¡í„°ë¥¼ ë§ì´ì§€. 
     if (_iMeshIndex >= m_iNumMeshes)
         return E_FAIL;
 
@@ -280,7 +262,7 @@ const _float4x4* CModel::Get_BoneMatrix(const _char* _pBoneName) const
     return (*iter)->Get_CombinedTransformationMatrixPtr();
 }
 
-#pragma region ±âÁ¸ ReadyÇÔ¼öµé
+#pragma region ê¸°ì¡´ Readyí•¨ìˆ˜ë“¤
 HRESULT CModel::Ready_Meshes(_fmatrix _PreTransformMatrix)
 {
     m_iNumMeshes = m_pAIScene->mNumMeshes;
@@ -349,7 +331,7 @@ HRESULT CModel::Ready_Animations()
 }
 #pragma endregion
 
-#pragma region Save ¿ëµµ Ready ÇÔ¼öµé
+#pragma region Save ìš©ë„ Ready í•¨ìˆ˜ë“¤
 HRESULT CModel::Ready_Bones_Save(const aiNode* _pAINode, HANDLE _pFile, _int _iParentBoneIndex)
 {
     DWORD       dwByte = { 0 };
@@ -430,7 +412,7 @@ HRESULT CModel::Ready_Animations_Save(HANDLE _pFile)
 }
 #pragma endregion
 
-#pragma region Load ¿ëµµ Ready ÇÔ¼öµé
+#pragma region Load ìš©ë„ Ready í•¨ìˆ˜ë“¤
 HRESULT CModel::Ready_Bones_Load(HANDLE _pFile, _int _iParentBoneIndex)
 {
     DWORD       dwByte = { 0 };
@@ -472,7 +454,7 @@ HRESULT CModel::Ready_Meshes_Load(_fmatrix _PreTransformMatrix, HANDLE _pFile)
 HRESULT CModel::Ready_Materials_Load(const _char* _pModelFilePath, HANDLE _pFile)
 {
     DWORD       dwByte = {};
-    //m_iNumMaterials = m_pAIScene->mNumMaterials;
+
     _uint iNumMaterials = 0;
     ReadFile(_pFile, &iNumMaterials, sizeof(_uint), &dwByte, nullptr);
 
