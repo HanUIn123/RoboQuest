@@ -97,7 +97,7 @@ ShaderFiles
   3. **화염 지대 필드 생성**으로 이동 제한 및 대미지 영역 형성
   4. **방패 소환**을 통한 플레이어 슈팅 차단 (총알 무효화)
 
-| 보스 공격 패턴 1 (직선 사격) | 보스 공격 패턴 2 (베지어 곡선) | 보스 공격 패턴 4 (방패 소환) |
+| 보스 공격 패턴 1 (직선 사격) | 보스 공격 패턴 2 (베지어 곡선) | 보스 공격 패턴 3 (방패 소환) |
 | :---: | :---: | :---: |
 | ![NormalShooting](ShortsResults/NormalShooting.gif) | ![BezierPattern](ShortsResults/BezierPattern.gif) | ![BarrierPattern](ShortsResults/BarrierPattern.gif) |
 
