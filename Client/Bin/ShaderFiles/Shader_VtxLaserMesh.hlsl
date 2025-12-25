@@ -41,7 +41,7 @@ VS_OUT VS_MAIN(VS_IN In)
     matWVP = mul(matWV, g_ProjMatrix);
 
     Out.vPosition = mul(vector(In.vPosition, 1.f), matWVP);
-    // ¸ğµ¨ÀÇ Normal º¤ÅÍ ±¸ÇÏ·Á°í ÇÏ´Âµ¥ 0 ~ 1 ·ÎÇÏ·Á°í
+    // ëª¨ë¸ì˜ Normal ë²¡í„° êµ¬í•˜ëŠ”ë° 0 ~ 1 ë¡œ
     Out.vNormal = normalize(mul(float4(In.vNormal, 0.f), g_WorldMatrix));
     Out.vTexcoord = In.vTexcoord;
     Out.vWorldPos = mul(float4(In.vPosition, 1.f), g_WorldMatrix);
@@ -49,7 +49,7 @@ VS_OUT VS_MAIN(VS_IN In)
     
     Out.vTangent = normalize(mul(float4(In.vTangent, 0.0f), g_WorldMatrix));
     
-    // ¹ÙÀÌ³ë¸»ÀÌ yÃà ³Ê³¦ÀÌ¶óÇŞÀİ½¿? ±× ¹ÙÀÌ³ë¸»Àº ±×·¡¼­ zÃà ÇÏ°í xÃà ÇÏ°í ¿ÜÀûÇÏ¸é ±¸ÇÒ ¼ö ÀÖÀ½. 
+    // ë°”ì´ë…¸ë§ì€ ê·¸ë˜ì„œ zì¶• í•˜ê³  xì¶• í•˜ê³  ì™¸ì í•´ì„œ êµ¬í•¨. 
     Out.vBinormal = vector(normalize(cross(Out.vNormal.xyz, Out.vTangent.xyz)), 0.0f);
     
     return Out;
