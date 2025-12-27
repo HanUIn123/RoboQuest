@@ -14,8 +14,11 @@
 - **C++ / DirectX11 / HLSL / ImGui / Windows API 기반으로 자체 엔진을 사용하여 제작한 개인 프로젝트입니다.**
 
 ## ■ 개발 환경
-- 언어: C++, HLSL
-- 개발 도구: Visual Studio, Windows API, DirectX11, ImGui, Fmod
+- 언어 : C++, HLSL
+- 개발 도구 : Visual Studio, Windows API, DirectX11, ImGui, Fmod
+- 그래픽 API : DirectX 11
+- 개발 인원 : 1 명
+- 개발 기간 : 2024.12 ~ 2025.02
 
 ## ■ 시연 영상
 - [RoboQuest 시연 영상](https://youtu.be/q8If1wbsMpg)
