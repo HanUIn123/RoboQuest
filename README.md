@@ -18,7 +18,7 @@
 - 개발 도구 : Visual Studio, Windows API, DirectX11, ImGui, Fmod
 - 그래픽 API : DirectX 11
 - 개발 인원 : 1 명
-- 개발 기간 : 2024.12 ~ 2025.02
+- 개발 기간 : 2024.11 ~ 2025.01
 
 ## ■ 시연 영상
 - [RoboQuest 시연 영상](https://youtu.be/q8If1wbsMpg)
